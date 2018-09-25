@@ -20,5 +20,5 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
-  arr.map { |ele| ele[2] = "$"}
+  arr.map { |ele| ele.slice(0,2) + "$" + ele.slice(3) }
 end
