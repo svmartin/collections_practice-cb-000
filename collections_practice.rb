@@ -26,3 +26,7 @@ end
 def find_a(arr)
   arr.select { |word| word.start_with?("a") }
 end
+
+def add_s(arr)
+  arr.each_with_index.map { |ele, i| ele += "s" unless i == 1 }
+end
