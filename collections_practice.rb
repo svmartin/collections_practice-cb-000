@@ -28,7 +28,7 @@ def find_a(arr)
 end
 
 def add_s(arr)
-  arr.each_with_index.map do |ele, i| 
+  arr.each_with_index.map do |ele, i|
     if i == 1
       ele
     else
