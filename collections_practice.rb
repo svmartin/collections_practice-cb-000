@@ -36,3 +36,7 @@ def add_s(arr)
     end
   end
 end
+
+def sum_array(arr)
+  arr.reduce(:+)
+end
