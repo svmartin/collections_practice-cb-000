@@ -22,3 +22,7 @@ end
 def kesha_maker(arr)
   arr.map { |ele| ele.slice(0,2) + "$" + ele.slice(3,ele.length-1) }
 end
+
+def find_a(arr)
+  arr.select { |word| word.begins_with?("a") }
+end
